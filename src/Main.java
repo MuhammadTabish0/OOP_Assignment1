@@ -1,9 +1,8 @@
 
 public class Main{
     public static void main(String [] argc){
-Book game = new Book();
-game.author = "Mr.Tabish";
-
+        Library l = new Library();
+        l.add_book();
 
     }
 }
