@@ -1,5 +1,7 @@
+import java.io.Serializable;
 import java.util.ArrayList;
-public class User {
+public class User implements Serializable {
+    //user perimeters
     int userid;
     String name;
     String contact;
@@ -8,6 +10,6 @@ public class User {
         name = ename;
         contact = econtact;
     };
-    ArrayList <String> br_books = new ArrayList<String>();
+    ArrayList <Book> br_books = new ArrayList<Book>();
 }
 
