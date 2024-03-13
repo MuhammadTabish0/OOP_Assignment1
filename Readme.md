@@ -1,7 +1,9 @@
 **Description of Project:**
           The Simple Library Management System is a Java-based console application designed to facilitate basic library operations such as adding users, adding books, issuing books to users, and returning books. The system allows librarians to manage the library's inventory and track book borrowing activities by users.
+          
 **Instruction:**
         To run this file you will need a JDK(java development kit) with a java IDE. Run the Main java class on the IDE to use this system.
+        
 **Features:**
 
 Add User: Librarians can add new users to the library system by providing their unique ID, name, and contact information.
